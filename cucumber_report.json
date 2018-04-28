@@ -1,0 +1,82 @@
+[
+  {
+    "description": "  As a user of awesome web page\n  I want to be able to login to awesome web page\n  So that I can use awesome web page",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/main.feature",
+    "elements": [
+      {
+        "id": "login;login-process",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login process",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/world.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I want to login to my awesome page",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I type my username and password",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the main page",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/world.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

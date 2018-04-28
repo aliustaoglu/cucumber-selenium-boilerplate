@@ -1,0 +1,35 @@
+{
+  "name": "cucumber-selenium-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal E2E boilerplate for BDT using Cucumber and Selenium",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test:e2e": "./node_modules/cucumber/bin/cucumber-js -f json:cucumber_report.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliustaoglu/cucumber-selenium-boilerplate.git"
+  },
+  "keywords": [
+    "cucumber",
+    "selenium",
+    "bdt"
+  ],
+  "author": "Cuneyt Aliustaoglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliustaoglu/cucumber-selenium-boilerplate/issues"
+  },
+  "homepage": "https://github.com/aliustaoglu/cucumber-selenium-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^2.38.2",
+    "cucumber": "^4.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
